@@ -4,6 +4,8 @@ This repo contains all my [neovim](https://github.com/neovim/neovim) config file
 
 ## If you want to also use it
 
+Please note that this config is only guaranteed (not really) to work on Linux and might or might not work on Mac OS.
+
 1. Install Neovim at https://neovim.io/doc/install/
 2. Install Git if it's not already installed via your distros package manager.
 3. Make a backup of your current nvim config folder
