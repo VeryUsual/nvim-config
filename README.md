@@ -18,6 +18,3 @@ git clone https://github.com/VeryUsual/nvim-config ~/.config/nvim
 ```bash
 nvim
 ```
-
-You can also install these optional dependencies using this command:
-sudo pacman -S --needed --noconfirm yarn git curl unzip tar gzip luarocks npm python-pip go
