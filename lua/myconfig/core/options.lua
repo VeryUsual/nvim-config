@@ -37,3 +37,7 @@ vim.opt.hlsearch = true
 
 vim.opt.mouse = "a"
 vim.g.editorconfig = true
+
+vim.opt.fileformat = "unix"
+
+vim.opt.relativenumber = true

@@ -40,7 +40,7 @@ return {
                 "html",
                 "cssls",
                 -- "tailwindcss",
-                -- "gopls",
+                "gopls",
                 -- "angularls",
                 -- "astro",
                 -- "emmet_ls",
