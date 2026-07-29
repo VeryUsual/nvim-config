@@ -30,6 +30,8 @@ return {
                 sections = {
                     { section = "header" },
                     { section = "keys", gap = 1, padding = 1 },
+                    { icon = " ", title = "Recent Files", section = "recent_files", indent = 2, padding = { 2, 2 } },
+                    { icon = " ", title = "Projects", section = "projects", indent = 2, padding = 2 },
                     { section = "startup" },
                 },
             }
@@ -52,6 +54,7 @@ return {
             -- Other Utils
             { "<leader>th" , function() require("snacks").picker.colorschemes({ layout = "ivy" }) end, desc = "Pick Color Schemes"},
             { "<leader>vh", function() require("snacks").picker.help() end, desc = "Help Pages" },
+            { "<leader>tt", function() require("snacks").terminal.toggle() end, desc = "Open terminal" }
         }
     },
     {

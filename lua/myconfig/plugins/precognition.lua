@@ -5,6 +5,9 @@ return {
     -- startVisible = true,
     -- showBlankVirtLine = true,
     -- highlightColor = { link = "Comment" },
+    targetedMotionHints = {
+        enabled = false
+    },
     -- hints = {
     --      Caret = { text = "^", prio = 2 },
     --      Dollar = { text = "$", prio = 1 },
@@ -23,8 +26,9 @@ return {
     --     PrevParagraph = { text = "{", prio = 8 },
     --     NextParagraph = { text = "}", prio = 8 },
     -- },
-    -- disabled_fts = {
-    --     "startify",
-    -- },
+    disabled_fts = {
+       "md",
+       "txt"
+    },
     },
 }
