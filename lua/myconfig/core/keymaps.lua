@@ -35,7 +35,7 @@ vim.keymap.set("n", "<leader>fp", function()
     print("File path copied to clipboard: " .. filePath)
 end, { desc = "Copy file path to clipboard" })
 
-vim.keymap.set({"t"}, "<leader>tq", function()
+vim.keymap.set({"t"}, "<leader>tt", function()
     Snacks.terminal.toggle()
 end, { desc = "Close terminal" })
 
