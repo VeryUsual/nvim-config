@@ -38,3 +38,7 @@ end, { desc = "Copy file path to clipboard" })
 vim.keymap.set({"t"}, "<leader>tq", function()
     Snacks.terminal.toggle()
 end, { desc = "Close terminal" })
+
+vim.keymap.set("n", "<leader>da", function()
+    Snacks.dashboard.open()
+end, { desc = "Open Dashboard" })
