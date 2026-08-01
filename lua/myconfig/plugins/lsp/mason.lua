@@ -49,6 +49,7 @@ return {
                 -- "eslint",
                 "marksman",
                 "ruff",
+                "rust_analyzer",
             },
         })
 
@@ -61,6 +62,7 @@ return {
                 "clangd",
                 "denols",
                 -- { 'eslint_d', version = '13.1.2' },
+                "codelldb",
             },
 
             -- NOTE: mason BREAKING Change! Removed setup_handlers
