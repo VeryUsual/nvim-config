@@ -1,3 +1,6 @@
+return {}
+
+--[[
 return {
   "sphamba/smear-cursor.nvim",
   opts = {
@@ -8,3 +11,4 @@ return {
       time_interval = 10,
   },
 }
+--]]
